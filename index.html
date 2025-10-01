@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prominent</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/logo-removebg-preview (2).png" />
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#e3e3e3"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              />
+            </svg>
+          </a>
+        </li>
+
+        <li><a href="#first-page-container">About Us</a></li>
+        <li><a href="#customer">Customers</a></li>
+        <li><a href="#price">Pricing</a></li>
+        <li><a href="#contact-us-container">Contact Us</a></li>
+      </ul>
+
+      <div class="navbar-container">
+        <div class="brand-title">
+          <a href="#first-page-container">
+            <img
+              src="images/logo-removebg-preview (2).png"
+              alt=""
+              width="80px"
+            />
+            <h2>Prominent</h2></a
+          >
+        </div>
+
+        <div class="link-container">
+          <a href="#first-page-container" class="link">About Us</a>
+          <a href="#customer" class="link">Customers</a>
+          <a href="#price" class="link">Pricing</a>
+          <button class="contact-button">
+            <a href="#contact-us-container">Contact Us</a>
+          </button>
+
+          <a onclick="showSidebar()" class="hamburger"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="20px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#e3e3e3"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-container">
+      <div class="first-page-container" id="first-page-container">
+        <div class="text-area">
+          <h1>Prominent – Pilot <br />Services</h1>
+          <p>
+            This is a fictional website developed by Balbacua ng
+            <br />Apopong. This website provides pilot services on <br />various
+            popular games.
+          </p>
+          <button>
+            <a
+              href="https://www.youtube.com/watch?v=xvFZjo5PgG0&list=RDxvFZjo5PgG0&start_radio=1"
+              target="_blank"
+              >Learn More</a
+            >
+          </button>
+        </div>
+
+        <div class="img-area">
+          <img src="images/controller.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="customer-container" id="customer">
+        <h2>Potential Customers</h2>
+
+        <div class="cards-container">
+          <div class="card1">
+            <img src="images/ml.png" alt="" class="img-customer" />
+            <h2>Competitive Mobile Legends Player</h2>
+            <p>
+              A rank-driven player stuck in Epic or Legend who wants a boost to
+              Mythic without the stress of random teammates.
+            </p>
+            <a href=""> Learn More</a>
+          </div>
+
+          <div class="card2">
+            <img src="images/blood-strike.jpg" alt="" class="img-customer" />
+            <h2>FPS Grinder on <br />the Go</h2>
+            <p>
+              A shooter player stuck in low tiers who wants last rank
+              progression and better stats without grinding all day.
+            </p>
+            <a href=""> Learn More</a>
+          </div>
+
+          <div class="card3">
+            <img src="images/dota2.jpg" alt="" class="img-customer" />
+            <h2>Seasoned Dota 2 Rank Climber</h2>
+            <p>
+              A frustated player stuck in Archon or Legend who wants a smooth
+              climb to Divine without dealing with toxic teammates.
+            </p>
+            <a href=""> Learn More</a>
+          </div>
+
+          <div class="card4">
+            <img src="images/clash.jpg" alt="" class="img-customer" />
+            <h2>Clash Royale Ladder Climber</h2>
+            <p>
+              A mid-ladder player stuck in Arena 13-15 who wants help pushing
+              trophies and unlocking higher leagues.
+            </p>
+            <a href="">Learn More</a>
+          </div>
+        </div>
+        <button class="last-customer-button">Learn More</button>
+      </div>
+
+      <div class="pricing-container" id="price">
+        <h2>Pricing</h2>
+
+        <div class="ml-pricing">
+          <img src="images/mlmlml.png" alt="" />
+          <div class="text-area">
+            <h2>Mobile Legends Boosting — ₱499</h2>
+            <p>
+              Many Mobile Legends players get stuck in ranks like Epic, Legend,
+              or even low Mythic because of random teammates, trolls, or lack of
+              time to grind stars.
+            </p>
+            <button>Select Plan</button>
+          </div>
+        </div>
+        <div class="bs-pricing">
+          <img src="images/bsbs.jpg" alt="" />
+          <div class="text-area">
+            <h2>Blood Strike Rank Upgrade — ₱399</h2>
+            <p>
+              Blood Strike players often struggle to increase their tier or
+              improve their stats because of limited time, weak teammates, or
+              difficulty maintaining good performance across matches.
+            </p>
+            <button>Choose Plan</button>
+          </div>
+        </div>
+        <div class="dota-pricing">
+          <img src="images/dota2_social.jpg" alt="" />
+          <div class="text-area">
+            <h2>Dota 2 MMR Climb — ₱699</h2>
+            <p>
+              Climbing MMR in Dota 2 can be exhausting, especially when you're
+              stuck in Archon, Crusader, or Legend and constantly matched with
+              toxic or uncooperative teammates.
+            </p>
+            <button>Get This Plan</button>
+          </div>
+        </div>
+        <div class="cr-pricing">
+          <img src="images/clash-royale.jpg" alt="" />
+          <div class="text-area">
+            <h2>Clash Royale Trophy Push — ₱449</h2>
+            <p>
+              Many Clash Royale players get stuck in mid-ladder areas like Arena
+              13–15 or early leagues because of uneven matchmaking, time
+              limitations, or poorly optimized decks.
+            </p>
+            <button>Upgrade Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-us-container" id="contact-us-container">
+        <h2>Contact Us</h2>
+        <form action="">
+          <input type="text" placeholder="Enter Name" required class="input" />
+          <input type="text" placeholder="Email" required class="input" />
+          <input type="text" placeholder="Message" class="message-input" />
+          <input type="submit" value="Send" class="submit" />
+        </form>
+      </div>
+
+      <footer>
+        <div class="brand-title-contact">
+          <a href="index.html"
+            ><img
+              src="images/logo-removebg-preview (2).png"
+              alt=""
+              width="90px"
+          /></a>
+          <h2>Prominent</h2>
+        </div>
+
+        <div class="brand-infos">
+          <p><b>Contact info</b>: +63 938 4234 231</p>
+          <p><b>Address</b>: Saging Street, Lot 5, General Santos City</p>
+        </div>
+
+        <div class="link-logo">
+          <a href="https://www.facebook.com/villaruzdark" target="_blank"
+            ><img src="images/fb.png" alt=""
+          /></a>
+          <a href="https://x.com/familyguyonfox" target="_blank"
+            ><img src="images/xlogo.png" alt=""
+          /></a>
+          <a href="https://www.instagram.com/jedvillaruz007/" target="_blank"
+            ><img src="images/insta.png" alt=""
+          /></a>
+          <a
+            href="https://www.tiktok.com/@tygatrawwozawa/video/7115468061351693595"
+            target="_blank"
+            ><img src="images/discord.png" alt=""
+          /></a>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+
+      function hideSidebar() {
+        sidebar.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
