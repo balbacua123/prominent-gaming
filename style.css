@@ -71,14 +71,13 @@ nav li:last-child:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50%;
+  gap: 55%;
   margin-top: 13px;
 }
 
 .brand-title {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .brand-title h2 {
   position: relative;
@@ -91,7 +90,7 @@ nav li:last-child:hover {
 .link-container {
   display: flex;
   align-items: center;
-  gap: 65px;
+  gap: 50px;
 }
 
 h2 {
@@ -395,5 +394,17 @@ footer {
   .hamburger {
     display: flex;
     margin-right: 65px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .navbar-container {
+    gap: 65%;
+  }
+
+  .link-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
   }
 }
