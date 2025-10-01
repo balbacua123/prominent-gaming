@@ -58,7 +58,7 @@ nav li:first-child {
   font-weight: bold;
 }
 
-nav li:last-child:hover {
+li:hover{
   text-decoration: underline;
 }
 
@@ -408,3 +408,4 @@ footer {
     gap: 50px;
   }
 }
+
